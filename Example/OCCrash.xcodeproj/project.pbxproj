@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		00F88161A8BB68D2EE546B7B /* Pods-OCCrash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCrash_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCCrash_Example/Pods-OCCrash_Example.release.xcconfig"; sourceTree = "<group>"; };
-		30AA274A53147DEED002A0FF /* OCCrash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = OCCrash.podspec; path = ../OCCrash.podspec; sourceTree = "<group>"; };
+		30AA274A53147DEED002A0FF /* OCCrash.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OCCrash.podspec; path = ../OCCrash.podspec; sourceTree = "<group>"; };
 		312FB8C3A4932E1F49D6C956 /* Pods-OCCrash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCrash_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCCrash_Example/Pods-OCCrash_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		349F02A160D4944437436B5D /* Pods-OCCrash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCrash_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCCrash_Tests/Pods-OCCrash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OCCrash_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCCrash_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C956525DFCCDAFA867F97D3 /* Pods-OCCrash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCrash_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCCrash_Tests/Pods-OCCrash_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B30D699904639F32FF6653B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		90867D72328DA0125840AD23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8B30D699904639F32FF6653B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		90867D72328DA0125840AD23 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		90E64F480220AB5DE74C51B8 /* Pods_OCCrash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCCrash_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -488,7 +488,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -521,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

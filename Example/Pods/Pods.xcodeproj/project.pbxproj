@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		104D71D50048E701C4E5C6A2CA61606D /* Pods-OCCrash_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8628F7C21F490C3F00387CF2646CA335 /* Pods-OCCrash_Example-dummy.m */; };
+		11960ACFB605E401ADDE3D435739559B /* NSObject+JYPreventCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B8926CFE28BC9AA6B6741F1B3977BEF /* NSObject+JYPreventCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1869F890A21BB13EB07258FA068432A7 /* JYPreventCrashAuxiliaryClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDE988EB82E4F896A8300366234C2C3 /* JYPreventCrashAuxiliaryClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B83CC6618986E4874EE9C1ED29EB7BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2271F2745EA4E5B5AB9FBCD43B140F5F /* NSMutableDictionary+JYPreventCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = ED37A6A745073E2C951527D4D74DFAE6 /* NSMutableDictionary+JYPreventCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D3B08E40BA8770A2F3CBF0804F877E /* OCCrash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BD8731E14B502A19C7AD714E51FA42 /* OCCrash-dummy.m */; };
+		38B579FC9B7EA663471A750E1BDC73FD /* NSArray+JYPreventCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = CC66B9109747F48DB101D94BFF9DD08D /* NSArray+JYPreventCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B0081AAFDC96339CE4F59311DB3340E /* NSString+JYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CE53092C6679AE7EF364BB3C27A0E1 /* NSString+JYPreventCrash.m */; };
+		413AD27B939EDDE57F094F4369B7C269 /* NSMutableArray+JYPreventCarsh.h in Headers */ = {isa = PBXBuildFile; fileRef = F3499899C225BBAF5C76A765AF209E78 /* NSMutableArray+JYPreventCarsh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DFB39D47D75E5DC32CD7E47912ADB04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51DE7B7B96C1B41FA7A512E64B0DCBB5 /* JYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 760AD483D5B1D201DCFBD44E22797CF6 /* JYPreventCrash.m */; };
+		649BDDDB88976B5177C7292BE7FD3459 /* JYPreventCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = ACDC4485501B7ED51CD72D9667C9FD2E /* JYPreventCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69BD1DF3D0C3EA86F00A076E162F1606 /* Pods-OCCrash_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAC19A118D34435D94CD0058BE6A57A /* Pods-OCCrash_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CC693BD1704857D440A57F02E3D7B94 /* Pods-OCCrash_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EF6A5F8EC063B708ADA5A38EBFEFED4 /* Pods-OCCrash_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A49331EBE3862019A8B7ACCE7D12316 /* NSArray+JYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA45F3D29AD87010AA04FFD46F3D757 /* NSArray+JYPreventCrash.m */; };
+		9A734A4AA12696117F99D84399B64FED /* NSMutableDictionary+JYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B240D5ABCA8344B81B4A1DA0B7B596A /* NSMutableDictionary+JYPreventCrash.m */; };
+		9FBF2780F59D9A40B22ED630A5B7794E /* NSString+JYPreventCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BC80DCB497C2D4411540E9FCF07A62 /* NSString+JYPreventCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC049AB41AFCCB70320D76D387F034F4 /* JYPreventCrashProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 73280FE1F19A52238BA3457C0643F12D /* JYPreventCrashProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD981ADE93123655ACE18A47212DECD4 /* JYPreventCrashAuxiliaryClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DE69F4002472F09B7B9DF481B1E32E /* JYPreventCrashAuxiliaryClass.m */; };
+		ADE7143F4972FE80D3994F694A5FCD71 /* OCCrash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06CB5C793C280FB3896F72024D9226CC /* OCCrash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05DAFDACC7F43FA53E853A23978E564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CA3B0261D44BEE8023958C8320F7BD1F /* NSObject+JYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CD5E448B5C7E1EB571CDC6BCC79B95 /* NSObject+JYPreventCrash.m */; };
+		D46C14DA4FA4B2BF76DA61378A88FFFC /* Pods-OCCrash_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4582BAABC471BB5954762416B4EBEC /* Pods-OCCrash_Tests-dummy.m */; };
+		D86619155300E11D077712EF688119C4 /* NSDictionary+JYPreventCrash.h in Headers */ = {isa = PBXBuildFile; fileRef = 04039BBF2FA58E58B8247A87AD19436F /* NSDictionary+JYPreventCrash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6AB08ADD332D9ECD7F0E680B1B9243 /* NSDictionary+JYPreventCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AC876E100135012DCA52A098E3BDAB /* NSDictionary+JYPreventCrash.m */; };
+		EC44FA767D12ECA98C8A1DBDED575172 /* NSMutableArray+JYPreventCarsh.m in Sources */ = {isa = PBXBuildFile; fileRef = 318067932F36EB6B1E1CEE67741C19CF /* NSMutableArray+JYPreventCarsh.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA37540915C087046688020B2C0118B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44D4CCB79D2AFE166859F60F463116D;
+			remoteInfo = OCCrash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E93C2722EC9C1DFFCE165B16DAC86 /* Pods-OCCrash_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCrash_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04039BBF2FA58E58B8247A87AD19436F /* NSDictionary+JYPreventCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JYPreventCrash.h"; path = "OCCrash/Classes/PreventCrash/NSDictionary+JYPreventCrash.h"; sourceTree = "<group>"; };
+		06CB5C793C280FB3896F72024D9226CC /* OCCrash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCCrash-umbrella.h"; sourceTree = "<group>"; };
+		09DE69F4002472F09B7B9DF481B1E32E /* JYPreventCrashAuxiliaryClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JYPreventCrashAuxiliaryClass.m; path = OCCrash/Classes/PreventCrash/JYPreventCrashAuxiliaryClass.m; sourceTree = "<group>"; };
+		0DDE988EB82E4F896A8300366234C2C3 /* JYPreventCrashAuxiliaryClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYPreventCrashAuxiliaryClass.h; path = OCCrash/Classes/PreventCrash/JYPreventCrashAuxiliaryClass.h; sourceTree = "<group>"; };
+		0F2B6E021BBBD01510B646F964BFFE4D /* OCCrash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OCCrash.framework; path = OCCrash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CE53092C6679AE7EF364BB3C27A0E1 /* NSString+JYPreventCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JYPreventCrash.m"; path = "OCCrash/Classes/PreventCrash/NSString+JYPreventCrash.m"; sourceTree = "<group>"; };
+		23CD5E448B5C7E1EB571CDC6BCC79B95 /* NSObject+JYPreventCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+JYPreventCrash.m"; path = "OCCrash/Classes/PreventCrash/NSObject+JYPreventCrash.m"; sourceTree = "<group>"; };
+		240C794AC23923B75D6E21855E6D54B4 /* OCCrash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OCCrash-prefix.pch"; sourceTree = "<group>"; };
+		25BC80DCB497C2D4411540E9FCF07A62 /* NSString+JYPreventCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JYPreventCrash.h"; path = "OCCrash/Classes/PreventCrash/NSString+JYPreventCrash.h"; sourceTree = "<group>"; };
+		2DA45F3D29AD87010AA04FFD46F3D757 /* NSArray+JYPreventCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JYPreventCrash.m"; path = "OCCrash/Classes/PreventCrash/NSArray+JYPreventCrash.m"; sourceTree = "<group>"; };
+		2EF6A5F8EC063B708ADA5A38EBFEFED4 /* Pods-OCCrash_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCrash_Tests-umbrella.h"; sourceTree = "<group>"; };
+		318067932F36EB6B1E1CEE67741C19CF /* NSMutableArray+JYPreventCarsh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+JYPreventCarsh.m"; path = "OCCrash/Classes/PreventCrash/NSMutableArray+JYPreventCarsh.m"; sourceTree = "<group>"; };
+		37EEB0788B03E8E7C0BED9BE330A194B /* Pods-OCCrash_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCrash_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4A4582BAABC471BB5954762416B4EBEC /* Pods-OCCrash_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCrash_Tests-dummy.m"; sourceTree = "<group>"; };
+		4CB0870282E2215FA68675E14E80C04F /* Pods-OCCrash_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCrash_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4CB321100275621F58C24A053A940816 /* Pods-OCCrash_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCrash_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D370DA7C24DAE6601AD1B11A8579693 /* OCCrash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OCCrash.xcconfig; sourceTree = "<group>"; };
+		51F9D333590EA595F62A30F13C202ED5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B240D5ABCA8344B81B4A1DA0B7B596A /* NSMutableDictionary+JYPreventCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+JYPreventCrash.m"; path = "OCCrash/Classes/PreventCrash/NSMutableDictionary+JYPreventCrash.m"; sourceTree = "<group>"; };
+		5B8926CFE28BC9AA6B6741F1B3977BEF /* NSObject+JYPreventCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+JYPreventCrash.h"; path = "OCCrash/Classes/PreventCrash/NSObject+JYPreventCrash.h"; sourceTree = "<group>"; };
+		5CAC19A118D34435D94CD0058BE6A57A /* Pods-OCCrash_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OCCrash_Example-umbrella.h"; sourceTree = "<group>"; };
+		60AC876E100135012DCA52A098E3BDAB /* NSDictionary+JYPreventCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JYPreventCrash.m"; path = "OCCrash/Classes/PreventCrash/NSDictionary+JYPreventCrash.m"; sourceTree = "<group>"; };
+		64DD2E2F5C30A4505AF4192FE952D5F6 /* OCCrash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = OCCrash.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D4CE046578965CA22C9AF2EC0F2B776 /* Pods-OCCrash_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OCCrash_Tests.modulemap"; sourceTree = "<group>"; };
+		73280FE1F19A52238BA3457C0643F12D /* JYPreventCrashProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYPreventCrashProtocol.h; path = OCCrash/Classes/PreventCrash/JYPreventCrashProtocol.h; sourceTree = "<group>"; };
+		760AD483D5B1D201DCFBD44E22797CF6 /* JYPreventCrash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JYPreventCrash.m; path = OCCrash/Classes/PreventCrash/JYPreventCrash.m; sourceTree = "<group>"; };
+		78BD8731E14B502A19C7AD714E51FA42 /* OCCrash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OCCrash-dummy.m"; sourceTree = "<group>"; };
+		8628F7C21F490C3F00387CF2646CA335 /* Pods-OCCrash_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCCrash_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACDC4485501B7ED51CD72D9667C9FD2E /* JYPreventCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYPreventCrash.h; path = OCCrash/Classes/PreventCrash/JYPreventCrash.h; sourceTree = "<group>"; };
+		AEE31483B2F59D1C75376DAC8DCD8C02 /* Pods_OCCrash_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCrash_Tests.framework; path = "Pods-OCCrash_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5F51D8809881AC87102F1215305575F /* Pods-OCCrash_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCrash_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B7B0599AFF8DF1EB20B8C072D1912899 /* Pods-OCCrash_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCCrash_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8704D1BED5C20CD95568C5C03CFDEB1 /* Pods-OCCrash_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCrash_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C5AC2EE0322C6B384B8A5137A380A79F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC66B9109747F48DB101D94BFF9DD08D /* NSArray+JYPreventCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JYPreventCrash.h"; path = "OCCrash/Classes/PreventCrash/NSArray+JYPreventCrash.h"; sourceTree = "<group>"; };
+		CE1735DDDBE769323CE73CB454ECEEF3 /* Pods-OCCrash_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCCrash_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CF739BFCB588B14CCD0E3973E52F1685 /* Pods-OCCrash_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCCrash_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DFE30BFE6194B24944A185BABE7A011D /* Pods-OCCrash_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCrash_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E369C95F97B5FEBE897842F58C77CC96 /* Pods-OCCrash_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-OCCrash_Example.modulemap"; sourceTree = "<group>"; };
+		E82D61F126FCECBBB0145FA896D70FB3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86C648B68163FB6D6F608A3D23EEFBC /* Pods-OCCrash_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCrash_Example-resources.sh"; sourceTree = "<group>"; };
+		ED37A6A745073E2C951527D4D74DFAE6 /* NSMutableDictionary+JYPreventCrash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+JYPreventCrash.h"; path = "OCCrash/Classes/PreventCrash/NSMutableDictionary+JYPreventCrash.h"; sourceTree = "<group>"; };
+		F3499899C225BBAF5C76A765AF209E78 /* NSMutableArray+JYPreventCarsh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+JYPreventCarsh.h"; path = "OCCrash/Classes/PreventCrash/NSMutableArray+JYPreventCarsh.h"; sourceTree = "<group>"; };
+		F4ED54B4D002C020A0A5D220E6576434 /* Pods_OCCrash_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OCCrash_Example.framework; path = "Pods-OCCrash_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51348EB31C25FA699ECD7D21B213306 /* Pods-OCCrash_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OCCrash_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96146B06B3D5ECD9E42C2FF2C3EA4589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B83CC6618986E4874EE9C1ED29EB7BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A163A86F42DF26CE9E1B83510BE743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DFB39D47D75E5DC32CD7E47912ADB04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF05AF5772BC75CF196038C6A3DDF9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05DAFDACC7F43FA53E853A23978E564 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFDA27F489841821C8F828B89DEBCF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F2B6E021BBBD01510B646F964BFFE4D /* OCCrash.framework */,
+				F4ED54B4D002C020A0A5D220E6576434 /* Pods_OCCrash_Example.framework */,
+				AEE31483B2F59D1C75376DAC8DCD8C02 /* Pods_OCCrash_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A2511FCD9D6E888FA95705947AEB993 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD8809CD393BFC77E39FDEE334C477 /* Pods-OCCrash_Example */,
+				B121C465061DE39CF4F049F94C6ED720 /* Pods-OCCrash_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8E78E480286830B926C596C98346CED1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0DFDA27F489841821C8F828B89DEBCF8 /* Products */,
+				4A2511FCD9D6E888FA95705947AEB993 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E78E480286830B926C596C98346CED1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9357D65D5450014EA1F671E3428EAFBC /* OCCrash */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9357D65D5450014EA1F671E3428EAFBC /* OCCrash */ = {
+			isa = PBXGroup;
+			children = (
+				ACDC4485501B7ED51CD72D9667C9FD2E /* JYPreventCrash.h */,
+				760AD483D5B1D201DCFBD44E22797CF6 /* JYPreventCrash.m */,
+				0DDE988EB82E4F896A8300366234C2C3 /* JYPreventCrashAuxiliaryClass.h */,
+				09DE69F4002472F09B7B9DF481B1E32E /* JYPreventCrashAuxiliaryClass.m */,
+				73280FE1F19A52238BA3457C0643F12D /* JYPreventCrashProtocol.h */,
+				CC66B9109747F48DB101D94BFF9DD08D /* NSArray+JYPreventCrash.h */,
+				2DA45F3D29AD87010AA04FFD46F3D757 /* NSArray+JYPreventCrash.m */,
+				04039BBF2FA58E58B8247A87AD19436F /* NSDictionary+JYPreventCrash.h */,
+				60AC876E100135012DCA52A098E3BDAB /* NSDictionary+JYPreventCrash.m */,
+				F3499899C225BBAF5C76A765AF209E78 /* NSMutableArray+JYPreventCarsh.h */,
+				318067932F36EB6B1E1CEE67741C19CF /* NSMutableArray+JYPreventCarsh.m */,
+				ED37A6A745073E2C951527D4D74DFAE6 /* NSMutableDictionary+JYPreventCrash.h */,
+				5B240D5ABCA8344B81B4A1DA0B7B596A /* NSMutableDictionary+JYPreventCrash.m */,
+				5B8926CFE28BC9AA6B6741F1B3977BEF /* NSObject+JYPreventCrash.h */,
+				23CD5E448B5C7E1EB571CDC6BCC79B95 /* NSObject+JYPreventCrash.m */,
+				25BC80DCB497C2D4411540E9FCF07A62 /* NSString+JYPreventCrash.h */,
+				12CE53092C6679AE7EF364BB3C27A0E1 /* NSString+JYPreventCrash.m */,
+				EC095A43E63855806C41C2515BD8DBE8 /* Support Files */,
+			);
+			name = OCCrash;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B121C465061DE39CF4F049F94C6ED720 /* Pods-OCCrash_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E82D61F126FCECBBB0145FA896D70FB3 /* Info.plist */,
+				6D4CE046578965CA22C9AF2EC0F2B776 /* Pods-OCCrash_Tests.modulemap */,
+				B7B0599AFF8DF1EB20B8C072D1912899 /* Pods-OCCrash_Tests-acknowledgements.markdown */,
+				012E93C2722EC9C1DFFCE165B16DAC86 /* Pods-OCCrash_Tests-acknowledgements.plist */,
+				4A4582BAABC471BB5954762416B4EBEC /* Pods-OCCrash_Tests-dummy.m */,
+				DFE30BFE6194B24944A185BABE7A011D /* Pods-OCCrash_Tests-frameworks.sh */,
+				F51348EB31C25FA699ECD7D21B213306 /* Pods-OCCrash_Tests-resources.sh */,
+				2EF6A5F8EC063B708ADA5A38EBFEFED4 /* Pods-OCCrash_Tests-umbrella.h */,
+				4CB321100275621F58C24A053A940816 /* Pods-OCCrash_Tests.debug.xcconfig */,
+				B8704D1BED5C20CD95568C5C03CFDEB1 /* Pods-OCCrash_Tests.release.xcconfig */,
+			);
+			name = "Pods-OCCrash_Tests";
+			path = "Target Support Files/Pods-OCCrash_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC095A43E63855806C41C2515BD8DBE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51F9D333590EA595F62A30F13C202ED5 /* Info.plist */,
+				64DD2E2F5C30A4505AF4192FE952D5F6 /* OCCrash.modulemap */,
+				4D370DA7C24DAE6601AD1B11A8579693 /* OCCrash.xcconfig */,
+				78BD8731E14B502A19C7AD714E51FA42 /* OCCrash-dummy.m */,
+				240C794AC23923B75D6E21855E6D54B4 /* OCCrash-prefix.pch */,
+				06CB5C793C280FB3896F72024D9226CC /* OCCrash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/OCCrash";
+			sourceTree = "<group>";
+		};
+		F3DD8809CD393BFC77E39FDEE334C477 /* Pods-OCCrash_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C5AC2EE0322C6B384B8A5137A380A79F /* Info.plist */,
+				E369C95F97B5FEBE897842F58C77CC96 /* Pods-OCCrash_Example.modulemap */,
+				4CB0870282E2215FA68675E14E80C04F /* Pods-OCCrash_Example-acknowledgements.markdown */,
+				CE1735DDDBE769323CE73CB454ECEEF3 /* Pods-OCCrash_Example-acknowledgements.plist */,
+				8628F7C21F490C3F00387CF2646CA335 /* Pods-OCCrash_Example-dummy.m */,
+				B5F51D8809881AC87102F1215305575F /* Pods-OCCrash_Example-frameworks.sh */,
+				E86C648B68163FB6D6F608A3D23EEFBC /* Pods-OCCrash_Example-resources.sh */,
+				5CAC19A118D34435D94CD0058BE6A57A /* Pods-OCCrash_Example-umbrella.h */,
+				CF739BFCB588B14CCD0E3973E52F1685 /* Pods-OCCrash_Example.debug.xcconfig */,
+				37EEB0788B03E8E7C0BED9BE330A194B /* Pods-OCCrash_Example.release.xcconfig */,
+			);
+			name = "Pods-OCCrash_Example";
+			path = "Target Support Files/Pods-OCCrash_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9953C441839A7D3D248733808B668E74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649BDDDB88976B5177C7292BE7FD3459 /* JYPreventCrash.h in Headers */,
+				1869F890A21BB13EB07258FA068432A7 /* JYPreventCrashAuxiliaryClass.h in Headers */,
+				AC049AB41AFCCB70320D76D387F034F4 /* JYPreventCrashProtocol.h in Headers */,
+				38B579FC9B7EA663471A750E1BDC73FD /* NSArray+JYPreventCrash.h in Headers */,
+				D86619155300E11D077712EF688119C4 /* NSDictionary+JYPreventCrash.h in Headers */,
+				413AD27B939EDDE57F094F4369B7C269 /* NSMutableArray+JYPreventCarsh.h in Headers */,
+				2271F2745EA4E5B5AB9FBCD43B140F5F /* NSMutableDictionary+JYPreventCrash.h in Headers */,
+				11960ACFB605E401ADDE3D435739559B /* NSObject+JYPreventCrash.h in Headers */,
+				9FBF2780F59D9A40B22ED630A5B7794E /* NSString+JYPreventCrash.h in Headers */,
+				ADE7143F4972FE80D3994F694A5FCD71 /* OCCrash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF44D294B7867EAD6A56FD77762D5A96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC693BD1704857D440A57F02E3D7B94 /* Pods-OCCrash_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD33854CCF4657D514726726E70E5A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69BD1DF3D0C3EA86F00A076E162F1606 /* Pods-OCCrash_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A1ADA8C59A3907A56591ECDCF5100D8 /* Pods-OCCrash_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2EA994F136B42730158CF9F70B1B6CE /* Build configuration list for PBXNativeTarget "Pods-OCCrash_Example" */;
+			buildPhases = (
+				AAF897D1AB514CBF1F58CC7D48C6FF47 /* Sources */,
+				CF05AF5772BC75CF196038C6A3DDF9D0 /* Frameworks */,
+				BFD33854CCF4657D514726726E70E5A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13BA40C1FBC4113B9F41A11FA6FD9595 /* PBXTargetDependency */,
+			);
+			name = "Pods-OCCrash_Example";
+			productName = "Pods-OCCrash_Example";
+			productReference = F4ED54B4D002C020A0A5D220E6576434 /* Pods_OCCrash_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ADAB36E88A4225E3D98585DE144DF11 /* Pods-OCCrash_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAD4BDEDD5C048C7591B13A4354412ED /* Build configuration list for PBXNativeTarget "Pods-OCCrash_Tests" */;
+			buildPhases = (
+				AA685F2C462CEBE5E2A37D9FD13EFC1A /* Sources */,
+				A0A163A86F42DF26CE9E1B83510BE743 /* Frameworks */,
+				BF44D294B7867EAD6A56FD77762D5A96 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-OCCrash_Tests";
+			productName = "Pods-OCCrash_Tests";
+			productReference = AEE31483B2F59D1C75376DAC8DCD8C02 /* Pods_OCCrash_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D44D4CCB79D2AFE166859F60F463116D /* OCCrash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0420F0E3853A612A3522BFE1F5CC1B70 /* Build configuration list for PBXNativeTarget "OCCrash" */;
+			buildPhases = (
+				CD991D4CA6DF0E33F23C3E9E110E8E1B /* Sources */,
+				96146B06B3D5ECD9E42C2FF2C3EA4589 /* Frameworks */,
+				9953C441839A7D3D248733808B668E74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCCrash;
+			productName = OCCrash;
+			productReference = 0F2B6E021BBBD01510B646F964BFFE4D /* OCCrash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0DFDA27F489841821C8F828B89DEBCF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44D4CCB79D2AFE166859F60F463116D /* OCCrash */,
+				6A1ADA8C59A3907A56591ECDCF5100D8 /* Pods-OCCrash_Example */,
+				7ADAB36E88A4225E3D98585DE144DF11 /* Pods-OCCrash_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA685F2C462CEBE5E2A37D9FD13EFC1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D46C14DA4FA4B2BF76DA61378A88FFFC /* Pods-OCCrash_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAF897D1AB514CBF1F58CC7D48C6FF47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				104D71D50048E701C4E5C6A2CA61606D /* Pods-OCCrash_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD991D4CA6DF0E33F23C3E9E110E8E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DE7B7B96C1B41FA7A512E64B0DCBB5 /* JYPreventCrash.m in Sources */,
+				AD981ADE93123655ACE18A47212DECD4 /* JYPreventCrashAuxiliaryClass.m in Sources */,
+				8A49331EBE3862019A8B7ACCE7D12316 /* NSArray+JYPreventCrash.m in Sources */,
+				DC6AB08ADD332D9ECD7F0E680B1B9243 /* NSDictionary+JYPreventCrash.m in Sources */,
+				EC44FA767D12ECA98C8A1DBDED575172 /* NSMutableArray+JYPreventCarsh.m in Sources */,
+				9A734A4AA12696117F99D84399B64FED /* NSMutableDictionary+JYPreventCrash.m in Sources */,
+				CA3B0261D44BEE8023958C8320F7BD1F /* NSObject+JYPreventCrash.m in Sources */,
+				3B0081AAFDC96339CE4F59311DB3340E /* NSString+JYPreventCrash.m in Sources */,
+				27D3B08E40BA8770A2F3CBF0804F877E /* OCCrash-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13BA40C1FBC4113B9F41A11FA6FD9595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCCrash;
+			target = D44D4CCB79D2AFE166859F60F463116D /* OCCrash */;
+			targetProxy = BA37540915C087046688020B2C0118B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AD56145376FD5C28A4CE412589AB9F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37EEB0788B03E8E7C0BED9BE330A194B /* Pods-OCCrash_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCrash_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCrash_Example/Pods-OCCrash_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCCrash_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		303543D9EA3805CDE087877E30599182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D370DA7C24DAE6601AD1B11A8579693 /* OCCrash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCCrash/OCCrash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCCrash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCCrash/OCCrash.modulemap";
+				PRODUCT_NAME = OCCrash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53AE4089C0E7824EB7AC47925D998619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF739BFCB588B14CCD0E3973E52F1685 /* Pods-OCCrash_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCrash_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCrash_Example/Pods-OCCrash_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCCrash_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5FC0D1CCC8BE4FC9B2E9CC6CA157433C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8704D1BED5C20CD95568C5C03CFDEB1 /* Pods-OCCrash_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCrash_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCrash_Tests/Pods-OCCrash_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCCrash_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BB1667516C18B36FE9CCDAC98CC2D35A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB321100275621F58C24A053A940816 /* Pods-OCCrash_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OCCrash_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OCCrash_Tests/Pods-OCCrash_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OCCrash_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE137A251837191D73D19D99A51EA8FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D370DA7C24DAE6601AD1B11A8579693 /* OCCrash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OCCrash/OCCrash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OCCrash/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OCCrash/OCCrash.modulemap";
+				PRODUCT_NAME = OCCrash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0420F0E3853A612A3522BFE1F5CC1B70 /* Build configuration list for PBXNativeTarget "OCCrash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303543D9EA3805CDE087877E30599182 /* Debug */,
+				EE137A251837191D73D19D99A51EA8FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2EA994F136B42730158CF9F70B1B6CE /* Build configuration list for PBXNativeTarget "Pods-OCCrash_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AE4089C0E7824EB7AC47925D998619 /* Debug */,
+				2AD56145376FD5C28A4CE412589AB9F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAD4BDEDD5C048C7591B13A4354412ED /* Build configuration list for PBXNativeTarget "Pods-OCCrash_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1667516C18B36FE9CCDAC98CC2D35A /* Debug */,
+				5FC0D1CCC8BE4FC9B2E9CC6CA157433C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

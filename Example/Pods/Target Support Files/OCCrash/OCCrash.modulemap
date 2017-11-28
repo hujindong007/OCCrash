@@ -1,0 +1,6 @@
+framework module OCCrash {
+  umbrella header "OCCrash-umbrella.h"
+
+  export *
+  module * { export * }
+}
