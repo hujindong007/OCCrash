@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OCCrash_Example' do
+  pod 'OCCrash', :path => '../'
+
+  target 'OCCrash_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
