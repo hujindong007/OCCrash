@@ -7,14 +7,23 @@
 //
 
 #import "IOSAppDelegate.h"
+#import "JYPreventCrash.h"
 
 @implementation IOSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /**
+     *崩溃监测
+     */
+    [JYPreventCrash startPreventCrash];
+    
     // Override point for customization after application launch.
     return YES;
 }
+
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
